@@ -1,0 +1,49 @@
+
+
+#current_temp {
+    padding-left: 46.5%;
+    padding-top: 5%;
+    text-shadow: none;
+}
+
+.content {
+ text-shadow: none;
+}
+
+
+.ui-page-theme-a .ui-panel-wrapper {
+    background: -webkit-linear-gradient(#00a7ff, white);
+    background: -moz-linear-gradient(#00a7ff, white);
+    background: -webkit-linear-gradient(#00a7ff, white);
+    border-color: #bbb;
+    color: #333;
+    text-shadow: 0 1px 0 #cbdde7;
+}
+
+@media (max-width: 1024px) {
+    #current_temp {
+    padding-left: 48%;
+    padding-top: 20%;
+    }
+}
+
+@media (max-width: 768px) {
+    #current_temp {
+    padding-left: 44%;
+    padding-top: 25%;
+    }
+}
+
+@media (max-width: 425px) {
+    #current_temp {
+    padding-left: 40%;
+    padding-top: 30%;
+    }
+}
+
+@media (max-width: 425px) {
+    #current_temp {
+    padding-left: 36%;
+    padding-top: 45%;
+    }
+}

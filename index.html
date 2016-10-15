@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<meta name="apple-mobile-web-app-capable" content="yes" />-->
+    
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <!-- Adding Jquery mobile and Jquery -->
+    
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    
+    
+    <title>Go-Weather</title>
+</head>
+<body>
+
+     <div data-role = "page">
+        <div data-role="panel" id="left-panel" data-theme="a">
+            <ul data-theme="a" data-role="listview">
+                <li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+                
+                <li data-role="list-divider">Enter a City</li>
+                
+                <li><form><input type="text" name="city" id="city" data-rel="dialog"><button type="button" data-rel="close" id="button1">Get Weather</button></form></li>
+                
+            </ul>
+    </div> <!-- Panel end --> 
+    
+    <div data-role="header" data-position="fixed" data-theme="a">
+        <h1>Go-Weather</h1>
+        <a href="#left-panel" data-icon="bars" data-role="button" data-iconpos="notext" data-iconshadow="false">Menu</a>
+    </div>
+    
+    <!-- To be displayed in Center -->
+    
+    <div class = "display_weather" data-role="content" data-rel="close" class="content">
+        <section id ="current_temp"></section>
+    </div>
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
